@@ -1,0 +1,295 @@
+/*home*/
+.fondo{
+	background-image: url("../img/background/hero.jpg");
+	height: 600px;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0.99;
+	background-size: 100%;
+}
+.opac{
+	background-color: rgba(0, 0, 9, 0.5);
+	height: 600px;
+}
+.logoprimes{
+	margin:  5% 20%;
+}
+.estrella{
+	margin: 10% 0% 0% 0%;
+}
+.primes{
+	font-family: helvetica;
+	margin: 0% 0% 0% 1%; 
+	padding:  0% -30%;
+	font-size: 250%;
+	display: inline;
+}
+.menhome{
+	margin: 5% 0% 0% 50%;
+}
+.men1{
+	color: #0FA8A8;
+	padding: 2%;
+	display: inline-block;
+	font-family: helvetica;
+}
+.men{
+	display: inline-block;
+	font-family: helvetica;
+	padding: 2%;
+}
+/*seccion features*/
+*{
+	font-family: Helvetica;
+	font-size: 14px;
+}
+.icono{
+	width: 10%;
+	height: 10%;
+	position: relative;
+	left: 46%;
+	display: inline-block;
+}
+.size{
+	font-size: 12px;
+}
+.sizetitle{
+	font-size: 26px;
+}
+.imgfondo{
+	position: relative;
+	left: 19%;
+	width: 800px;
+	height: 300px;
+}
+.gray{
+	background-color: 	#DCDCDC;
+}
+.fotomosaico2{
+	position: relative;
+	left: 80%;
+}
+.negrita{
+	font-weight: bold;
+
+}
+/*seccion portafolio*/
+.fondoport{
+	background-color: #F2F2F2;
+}
+.portfolio, .contact{
+	font-weight: 700;
+	text-align: center;
+	margin: 4% 0% 2% 0%;
+	font-size: 200%;
+	font-family: helvetica;
+}
+.pportfolio, .pcontact{
+	font-size: 100%;
+	margin-bottom: 2%;
+	font-family: helvetica;
+}
+.botonmenpor{
+	padding: .8%;
+	background-color: #0FA8A8;
+	border: none;	
+}
+.botonmenpor2{
+	padding: .8%;
+	background-color: white;
+	border: none;
+}
+.menport{
+	text-align: center;
+	display: inline-block;
+}
+.fondoblanco{
+	background-color: white;
+	width: 76%;
+	height: 50%;
+	margin: 5% 0% 5% 14%;	
+}
+.imgport{
+	padding: 1.7%;
+	align: center;
+}
+.titport{
+	font-family: helvetica;
+	font-size: 150%;
+}
+.subtiport{
+	font-family: helvetica;
+	margin-bottom: 2%;
+}
+.botonload{
+	padding: 1.2%;
+	background-color: black;
+	border: none;
+	font-size: 100%;
+	margin: 0% 0% 1% 47%;
+}
+/*seccion pricing*/
+.imgFondoPricing{
+	background-image: url("../img/background/city.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+}
+.clase{
+	background-color: rgb(0,0,9,0.5);
+	height: 600px;
+}
+.text{
+	position: relative;
+	right: 290px;
+	top: 230px;
+	margin-left: 48%;
+}
+.cuadro{
+	width: 90%;
+	height: 50px;
+	margin: 15px 10px;
+}
+.fondoblancopricing{
+	width: 90%;
+	height: 100%;
+	background-color: white;
+	margin-left: 20px;
+}
+.mover{
+	position: relative;
+	left: 40%;
+}
+.botonindex{
+	width: 100px;
+	height: 30px;
+	color: white;
+	display: inline-block;
+}
+.botonindexopacity{
+	width: 100px;
+	height: 30px;
+	color: white;
+	display: inline-block;
+	background-color: gray;
+	position: relative;
+	margin:50px 30px;
+}
+hr{
+	width: 60%;
+	margin-left: 60px;
+}
+.CgrayObs{
+	background-color: #696969;
+}
+.ulti{
+	padding: 5% 0%;
+	font-size: 100%;
+}
+.Cblue{
+	background-color: #0FA8A8;
+}
+.boton{
+	color: white;
+	border: 2px solid #696969;
+	background-color: #696969;
+	width: 100px;
+	position: relative;
+	left: 35%;
+	cursor: pointer;
+	margin: 10px 0px 10px 0px;
+}
+.opac1{
+	position: relative;
+	right: 90%;
+	top: 45%;
+}
+.circuloimg{
+	border-radius: 100%;
+	position: relative;
+	left: 46%;
+	width:100px;
+	height: 100px;
+}
+.opacidad{
+	opacity: 0.3;
+	background-color: black;
+	width: 200px;
+	position: absolute;
+	left: 44%;
+	color: white;
+	border: none;
+	padding: 2%;
+	font-size: 150%;
+}
+/*seccion contact us*/
+.fondowork{
+	background-image: url("../img/background/contactus.jpg");
+	height: 546px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	opacity: 0.9;
+	filter: blur(50px);
+}
+.opac2{
+	background-color: rgba(0, 0, 9, 0.5);
+}
+.send{
+	margin: 2% 0% 5% 8%;
+	font-size: 120%;
+	font-family: helvetica;
+}
+/*seccion formulario*/
+.mail, .subject, .mensaje{	
+	display: block;
+	width: 450px;
+	font-size: 100%;
+	margin: 2% 0% 0% 8%;
+	padding: 2% 0% 2% 2%;
+	background-color: black;
+	opacity: 0.3;
+	border: none;
+}
+.mensaje{
+	padding: 2% 0% 15% 2%;	
+}
+.butsubnit{
+	padding: 1.8% 4%;
+	background-color: #0FA8A8;
+	border: none;
+	margin: 2% 0% 0% 8%;
+	font-size: 100%;
+}
+/*seccion about us*/
+.pabout{
+	font-size: 100%;
+	margin: 0% 0% 5% 8%;
+	font-family: helvetica;
+}
+.phone{
+	background-image: url("../iconos/phone-receiver.png");
+	background-repeat: no-repeat;
+	font-family: helvetica;
+	margin: 0% 0% 2% 8%; 
+	padding:  0% 5%;
+}
+.adress{
+	font-family: helvetica;
+	background-image: url("../iconos/placeholder.png");
+	background-repeat: no-repeat;
+	margin: 0% 0% 2% 8%; 
+	padding:  0% 5%;
+}
+/*seccion follow us*/
+.redes{
+	margin: 3% 0.7%;
+}
+/*footer*/
+footer{
+	height: 50%;
+	background-color: #3F4142;
+	padding: 2%;
+	font-family: helvetica;
+	font-size: 70%;
+}
